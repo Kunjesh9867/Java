@@ -2,8 +2,6 @@
 
 [//]: # (<div align="center"> <h3>Course name: Learn JAVA Programming - Beginner to Master by ABDUL BARI</h3></div>)
 
----
-
 In this repository, I have attached all the `source/practice` code that is taught in the course.
 
 
