@@ -20,7 +20,7 @@ In this repository, I have attached all the `source/practice` code that is taugh
 
 |Section|Concepts                           |
 |  ---: |:---                               |
-|   1   |Introduction                       |
+|   1   |FindingMaximumNumber                       |
 |   2   |Data Types - Variables and Literals|
 |   3   |Setup Java Environment             |
 |   4   |Features and Architecture          |
