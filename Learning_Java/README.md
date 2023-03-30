@@ -1,4 +1,3 @@
-<!-- # Learning Java -->
 <div align="center"> <h1>Learning Java</h1></div>
 
 [//]: # (<div align="center"> <h3>Course name: Learn JAVA Programming - Beginner to Master by ABDUL BARI</h3></div>)
@@ -21,7 +20,7 @@ In this repository, I have attached all the `source/practice` code that is taugh
 
 | Section | Concepts                            |
 |--------:|:------------------------------------|
-|       1 | FindingMaximumNumber                |
+|       1 | Introduction                        |
 |       2 | Data Types - Variables and Literals |
 |       3 | Setup Java Environment              |
 |       4 | Features and Architecture           |
