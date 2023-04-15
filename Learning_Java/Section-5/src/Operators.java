@@ -1,5 +1,7 @@
 public class Operators {
     public static void main(String[] args) {
+        byte b1 = 5;
+        System.out.println(b1);
         // Student Challenge
         int l = 10, h = 12;
         System.out.println("Area of Triangle: "+(0.5*l*h));
