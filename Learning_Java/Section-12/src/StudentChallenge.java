@@ -14,7 +14,7 @@ class Store
     void register(Member m)
     {
         members[count++]=m;
-        System.out.println(,m.getClass().getSimpleName());
+        System.out.println(m.getClass().getSimpleName());
     }
     void inviteSale()
     {
