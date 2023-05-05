@@ -26,6 +26,7 @@ class NegativeDimensionException extends Exception
 {
     public String toString()
     {
+
         return "Dimensions of a Rectangle cannot be Negative";
     }
 }
