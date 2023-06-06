@@ -10,18 +10,18 @@ public class File1 {
     public static void main(String[] args) {
         /* VARIABLES */
         /*
-        * We use variables to temporary store data in computer memory's
-        * You can declare multiple variables in the same line => not recommended by Mosh
-        *
-        * */
+         * We use variables to temporary store data in computer memory's
+         * You can declare multiple variables in the same line => not recommended by Mosh
+         *
+         * */
 
         int myAge = 30;
         int herAge = myAge; // Copying the value of one variable to another
 
         /*
-        * In java, you can use _ to seperate large number
-        * use meaningful names
-        * */
+         * In java, you can use _ to seperate large number
+         * use meaningful names
+         * */
         byte age = 30;
         long viewsCount = 3_123_345_789L;
         float price = 10.99F;
@@ -32,37 +32,37 @@ public class File1 {
         Date now = new Date();
         System.out.println(now); // Mon Jun 05 13:49:50 EDT 2023
 
-        Point point1 = new Point(1,1);
+        Point point1 = new Point(1, 1);
         Point point2 = point1;
         point1.x = 2;
         System.out.println(point2); // java.awt.Point[x=2,y=1]
         /*
-        * Reference types are copied by the reference
-        * Primitive types are copied by the value
-        * */
+         * Reference types are copied by the reference
+         * Primitive types are copied by the value
+         * */
 
 
 
         /* STRINGS*/
-        String message = new String("Hello World");
+        String message = "Hello World";
         String message1 = "Hello World";
         System.out.println(message1);
 
-        String message3 = "Hello World"+'!';
-        String message4 = "Hello World"+"!!";
+        String message3 = "Hello World" + '!';
+        String message4 = "Hello World" + "!!";
 
 
 
         /* ESCAPE SEQUENCE*/
         /*
-        * \n = newline
-        * \t = Tab
-        * \\ = \
-        * \" = "
-        *
-        * 4 escape sequence used above are onl used
-        * Remember it, that's it
-        * */
+         * \n = newline
+         * \t = Tab
+         * \\ = \
+         * \" = "
+         *
+         * 4 escape sequence used above are onl used
+         * Remember it, that's it
+         * */
         String newMessage = "Hello \"Kunjesh\"";
         System.out.println(newMessage);
         String windowsFilePath = "c:\\Desktop\\FileName";
@@ -78,7 +78,7 @@ public class File1 {
         System.out.println(number); // [I@7106e68e => This is the address
 
         System.out.println(Arrays.toString(number)); // [2, 1, 0]
-        int[] numbers2 = {1,2,3,4,5};
+        int[] numbers2 = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(numbers2)); // [1, 2, 3, 4, 5]
 
         // To sort an array
@@ -88,14 +88,14 @@ public class File1 {
 
 
         /* MULTI - DIMENSIONAL ARRAYS */
-        int [][] multiDArrays = new int[2][3];
+        int[][] multiDArrays = new int[2][3];
         multiDArrays[0][0] = 5;
 
         System.out.println(Arrays.toString(multiDArrays)); // [[I@6576fe71, [I@76fb509a]
         System.out.println(Arrays.deepToString(multiDArrays)); // [[5, 0, 0], [0, 0, 0]]
 
         // Curly Braces Syntax
-        int [][] multiDArrays2 = {{1,2,3},{4,5,6}};
+        int[][] multiDArrays2 = {{1, 2, 3}, {4, 5, 6}};
         System.out.println(Arrays.deepToString(multiDArrays2)); // [[1, 2, 3], [4, 5, 6]]
 
 
@@ -106,37 +106,37 @@ public class File1 {
 
 
         /* ARITHMETIC OPERATORS */
-        int result  = 10/3; // 3
+        int result = 10 / 3; // 3
         System.out.println(result);
 
-        float result2 = (float)10/ (float)3;
+        float result2 = (float) 10 / (float) 3;
         System.out.println(result2);
 
         int x = 1;
         x++;
 
-        x=x+2;
-        x+=2;
+        x = x + 2;
+        x += 2;
 
         /* ORDER OF OPERATOR */
         /*
-        *   ()
-        *   *,/
-        *   +,-
-        * */
+         *   ()
+         *   *,/
+         *   +,-
+         * */
 
         /* CASTING */
 
         // Implicit casting => No chance for data loss
         // byte > short > int > long > float > double
         short var1 = 1;
-        int var2 = var1+2; //3
+        int var2 = var1 + 2; //3
 
         double doubleVar = 1.1;
-        int integerVar = (int)doubleVar + 2; // 3
+        int integerVar = (int) doubleVar + 2; // 3
 
         String userInput = "1.1";
-        double y = Double.parseDouble(userInput)+2;
+        double y = Double.parseDouble(userInput) + 2;
         System.out.println(y); //3.1
 
 
@@ -144,8 +144,8 @@ public class File1 {
         System.out.println(Math.round(1.1F)); // 1
         System.out.println(Math.ceil(1.1F)); // 2.0
         System.out.println(Math.floor(1.1F)); // 1.0
-        System.out.println(Math.max(1,5)); // 5
-        System.out.println(Math.min(1,5)); // 1
+        System.out.println(Math.max(1, 5)); // 5
+        System.out.println(Math.min(1, 5)); // 1
         System.out.println(Math.random()); // 0.04768030943290158
 
         /* FORMATTING NUMBERS*/
@@ -165,30 +165,20 @@ public class File1 {
         /* READING INPUTS */
         Scanner sc = new Scanner(System.in); // Almost Every methods starts with 'next'
         int personAge = sc.nextInt();
-        System.out.println("Your age is: "+personAge);
+        System.out.println("Your age is: " + personAge);
 
 
         Scanner sc2 = new Scanner(System.in);
         System.out.print("Enter your name: ");
         String personName = sc2.nextLine();
-        System.out.println("Your name is:" +personName.trim());
+        System.out.println("Your name is:" + personName.trim());
 
         /*
-        * IMPORTANT:
-        * Why we have to use 2 scanner to get 2 outputs
-        * if you use 1 scanner then the second time, you ask for input, it get automatically terminated
-        * */
+         * IMPORTANT:
+         * Why we have to use 2 scanner to get 2 outputs
+         * if you use 1 scanner then the second time, you ask for input, it get automatically terminated
+         * */
 
         /* PROJECT: MORTGAGE CALCULATOR */
-
-
-
-
-
-
-
-
-
-
     }
 }
