@@ -126,7 +126,7 @@ public class File1 {
 
         /* DO-WHILE LOOPS */
         /*
-        * Executed atleast  one time
+        * Executed at least  one time
         * Rarely used
         * */
         do{

@@ -19,7 +19,7 @@ public class File1 {
         int herAge = myAge; // Copying the value of one variable to another
 
         /*
-         * In java, you can use _ to seperate large number
+         * In java, you can use _ to separate large number
          * use meaningful names
          * */
         byte age = 30;
@@ -60,7 +60,7 @@ public class File1 {
          * \\ = \
          * \" = "
          *
-         * 4 escape sequence used above are onl used
+         * 4 escape sequence used above are only used
          * Remember it, that's it
          * */
         String newMessage = "Hello \"Kunjesh\"";
@@ -133,7 +133,7 @@ public class File1 {
         int var2 = var1 + 2; //3
 
         double doubleVar = 1.1;
-        int integerVar = (int) doubleVar + 2; // 3
+        int integerVar = (int) doubleVar + 2; // 3 => Explicit type conversion as we use (int)
 
         String userInput = "1.1";
         double y = Double.parseDouble(userInput) + 2;
@@ -177,8 +177,17 @@ public class File1 {
          * IMPORTANT:
          * Why we have to use 2 scanner to get 2 outputs
          * if you use 1 scanner then the second time, you ask for input, it get automatically terminated
+         * This is the case if you use two scanner after one another.
+         * Let's say if you put A statement in between the 2 scanner => NO PROBLEM
+         * See below
          * */
 
         /* PROJECT: MORTGAGE CALCULATOR */
+
+
+        Scanner k1 = new Scanner(System.in);
+        k1.nextInt();
+        System.out.println("Hello");
+        k1.nextByte();
     }
 }

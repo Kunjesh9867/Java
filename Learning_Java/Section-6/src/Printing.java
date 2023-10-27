@@ -6,7 +6,7 @@ public class Printing {
 //        System.out.println(Integer.toString(55));
 //        int i = 55;
 //        String j = Integer.toString(55);
-//        System.out.println(j.getClass().getSimpleName());
+//        System.out.println(("j.getClass().getSimpleName()));
         System.out.printf("Kunjesh");
         System.out.println();
         int x = 10;

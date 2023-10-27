@@ -6,6 +6,7 @@ public class CreatingStringObjects {
 //
 //        char[] c = {'H','e','l','l','o'};
 //        String str3 = new String(c);
+//        System.out.println(str3);  Hello
 //
 //        byte[] b = {65,66,67,68};
 //        String str4 = new String(b,2,2);

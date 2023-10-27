@@ -5,8 +5,8 @@ public class CreatingStringObjects2 {
         String str2 = str.replace("net","kunjesh");
         System.out.println(str2);
 
-        String s = "java";
-        String s2 = "Java";
+        String s = "Java";
+        String s2 = "ava";
         System.out.println(s.compareTo(s2));
     }
 
