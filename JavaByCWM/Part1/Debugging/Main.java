@@ -9,7 +9,8 @@ public class Main {
     public static void main(String[] args) {
         /*
         * Types of Errors:
-        * (1) Compile-time Error = Google, StackOverFlow
+        * (1) Compile-time Error = Google, StackOverFlow = When the grammar of code is incorrect, syntax error
+        * Code editor helps you
         * (2) Run-time Error = We use debugger to solve this
         * */
 
