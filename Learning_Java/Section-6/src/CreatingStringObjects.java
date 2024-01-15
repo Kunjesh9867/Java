@@ -9,8 +9,8 @@ public class CreatingStringObjects {
 //        System.out.println(str3);  Hello
 //
 //        byte[] b = {65,66,67,68};
-//        String str4 = new String(b,2,2);
-//
+//        String str4 = new String(b,2,2); // Offset => Starting index
+//        System.out.println("str4: "+str4);
 //        System.out.println(str4);
 
         String str1 = "Java";

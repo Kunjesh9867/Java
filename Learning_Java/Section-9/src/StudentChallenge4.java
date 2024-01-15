@@ -34,4 +34,22 @@ public class StudentChallenge4 {
         System.out.println("Largest Number is: "+max1);
         System.out.println("Second largest Number is: "+max2);
     }
+
+    // More Effective
+//    int[]  A = {3,9,7,8,12,6,150,5,4,151};
+//
+//
+//    int largest = A[0];
+//    int secondLargest = 0;
+//
+//
+//        for (int i = 0; i < A.length ; i++) {
+//        if(A[i] > largest){
+//            secondLargest  = largest;
+//            largest = A[i];
+//
+//        }
+//
+//    }
+//        System.out.println(secondLargest);
 }
