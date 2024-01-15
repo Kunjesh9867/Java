@@ -27,6 +27,7 @@ class My implements Test2
 public class InterfacePractice
 {
     public static void main(String[] args)
+
     {
 //        Test t = new My();
 //        t.meth1();
@@ -34,6 +35,7 @@ public class InterfacePractice
 //        t.meth3(); //Error
         System.out.println(Test.X);
         Test.meth3();
+
 
     }
 }

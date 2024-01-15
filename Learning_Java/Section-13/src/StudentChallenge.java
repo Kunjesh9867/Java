@@ -30,4 +30,7 @@ class Rectangle extends Shape{
 
 
 public class StudentChallenge {
+
+    Circle c = new Circle();
+    Shape c2 = new Circle(); // Dynamic Method Dispatch
 }
