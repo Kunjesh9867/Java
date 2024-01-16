@@ -2,7 +2,7 @@ class HondaCity{
     static int x = 50;
     static class ClassStatic{
         void display(){
-            System.out.println("Method of static class");
+            System.out.println("Method of static class and variable: "+x);
         }
     }
 }

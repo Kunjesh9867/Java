@@ -2,12 +2,12 @@
 
 
 class My{
-    static int s;
+    static boolean s;
     static{
         System.out.println("Block 1");
 //        s=10;
     }static{
-        System.out.println("Block 1");
+        System.out.println("Block 2");
 //        s=100;
     }
 
@@ -42,7 +42,5 @@ public class StaticPractice {
 //        t2.show();
 //        My m = new My();
         System.out.println(My.s);
-
     }
-
 }
